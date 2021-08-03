@@ -1,0 +1,22 @@
+preference version02132020
+{
+	version = 1.0
+	date = 02/13/2020
+
+    //// 支持 1 种类型 event
+	group events
+	{
+
+	}
+
+    // 已支持 5 种类型 action, posaction, noaction, xaction, maction
+	group actions
+	{
+	}
+
+	group sequence
+	{
+
+	}
+
+}

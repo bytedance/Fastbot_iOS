@@ -1,0 +1,50 @@
+{
+  "version": 1.0,
+  "date": "02/13/2020",
+  "ocr":true,
+  "events": [
+    {
+      "type": "event",
+      "name": "eventbase",
+      "require":[],
+      "exclude":[],
+      "actions":[],
+      "roi":[],
+      "rate":1.0
+    }
+  ],
+  "actions":[
+    {
+      "type": "xaction",
+      "name":"restart",
+      "cmd":"RESTART",
+      "duration": 1.0
+    },
+    {
+      "type": "xaction",
+      "name":"terminate",
+      "cmd":"TERMINATE",
+      "duration": 1.0
+    },
+    {
+      "type": "xaction",
+      "name":"start",
+      "cmd":"START",
+      "duration": 1.0
+    },
+    {
+      "type": "xaction",
+      "name":"home",
+      "cmd":"HOME",
+      "duration": 1.0
+    },
+    {
+      "type": "xaction",
+      "name": "back",
+      "descrition": "back 特殊指令，执行返回操作",
+      "cmd":"BACK",
+      "text":"",
+      "duration": 1.0
+    }
+  ]
+}
