@@ -1,6 +1,7 @@
 ## Introduction
 Fastbot is a model-based testing tool for modeling GUI transitions to discover app stability problems. It combines machine learning and reinforcement learning techniques to assist discovery in a more intelligent way.
 > Related: [Fastbot_Android](https://github.com/bytedance/Fastbot_Android)
+***More detail see at [Fastbot architecture](https://mp.weixin.qq.com/s/QhzqBFZygkIS6C69__smyQ)
 
 ## Prepare test environment
   * `cd Fastbot-iOS && pod install --repo-update`
