@@ -40,5 +40,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   
   s.vendored_frameworks = []
-  s.source_files = "fastbot-stub/*.{h,m,mm}"
+  s.source_files = "Fastbot-iOS/fastbot-stub/*.{h,m,mm}"
 end

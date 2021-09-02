@@ -48,13 +48,13 @@ Pod::Spec.new do |s|
 
   s.subspec 'fastbot' do |ss|
     ss.vendored_frameworks = ["fastbot/fastbot_native.framework","fastbot/fastbot_cv.framework","fastbot/FastbotLib.framework"]
-    ss.source_files = "fastbot/Headers/*.{h}"
+    ss.source_files = "Fastbot-iOS/fastbot/Headers/*.{h}"
     ss.xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) FASTBOT_NATIVE=1' }
   end
 
 
   s.subspec 'fastbot-stub' do |ss|
     ss.vendored_frameworks = ['XCTest', 'XCTAutomationSupport']
-    ss.source_files = "fastbot-stub/*.{h,m,mm}"
+    ss.source_files = "Fastbot-iOS/fastbot-stub/*.{h,m,mm}"
   end
 end
