@@ -28,7 +28,7 @@ platform :ios, '9.0'
 project 'Fastbot-iOS.xcodeproj'
 
 target 'FastbotRunner' do
-  pod 'fastbot', :path => "./", :subspecs => [
+  pod 'fastbot', :path => "../", :subspecs => [
     'fastbot'
   ]
 end
@@ -38,6 +38,6 @@ end
 
 target 'fastbot_stub' do
   pod "GCDWebServer", "~> 3.0"
-  pod "fastbot-stub", :path => "./"
+  pod "fastbot-stub", :path => "../"
 end
 
