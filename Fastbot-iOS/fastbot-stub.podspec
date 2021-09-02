@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/bytedance/Fastbot-iOS'
   s.license          = { :type => 'MIT', :file => '../LICENSE' }
   s.author           = { 'fastbot' => 'smart-qa@bytedance.com' }
-  s.source           = { :git => '', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:bytedance/Fastbot_iOS.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
   
