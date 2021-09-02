@@ -37,15 +37,15 @@
 
 -----
 ### 其他说明
-1. 如何获取crash报告: #2
-2. 如何在 Win/Linux 下运行工具：  参考 tidevice #1
+1. 如何获取crash报告: [#2](https://github.com/bytedance/Fastbot_iOS/issues/2)
+2. 如何在 Win/Linux 下运行工具：  参考 tidevice [#1](https://github.com/bytedance/Fastbot_iOS/issues/1)
 3. CI/CD 相关问题：
 
    * 终端执行可使用tidevice  或 xcodebuild 命令：
    
-   `BUNDLEID=com.apple.Pages duration=240 throttle=300 xcodebuild test  -workspace Fastbot-iOS.xcworkspace -scheme FastbotRunner  -configuration Release  -destination 'platform=iOS,id=00008030-001804563E44802E' -only-testing:FastbotRunner/FastbotRunner/testPingNetwork
+   `BUNDLEID=com.apple.Pages duration=240 throttle=300 xcodebuild test  -workspace Fastbot-iOS.xcworkspace -scheme FastbotRunner  -configuration Release  -destination 'platform=iOS,id=00008030-001804563E44802E' -only-testing:FastbotRunner/FastbotRunner/testFastbot
 `  （如果启动Scheme设置中的启动参数被更改则需还原），可根据实际情况使用`build-for-testing` `test-without-building` 等提升执行效率 
-   
+   * 证书信任问题： 安装一个一直不删除的相同证书的其他应用即可。
  
 4. 如何自定义处理系统弹窗： 反注释 [代码块](../Fastbot-iOS/FastbotRunner/FastbotRunner.m#L57)，并编写自定义逻辑即可
 5. 更多高级功能可参考 [Fastbot跨平台](https://mp.weixin.qq.com/s/QhzqBFZygkIS6C69__smyQ)，欢迎大家提交 MR 扩展 fastbot-stub.m 相关功能
