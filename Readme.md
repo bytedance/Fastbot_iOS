@@ -87,7 +87,7 @@ To prioritize and improve Fastbot-iOS, FastbotRunner collects usage data and upl
 ## License
 >  Copyright©2021 Bytedance
 >
->  Licensed under [MIT](./LICENSE) 
+>  Licensed under [Fastbot Revised](./LICENSE) 
 
 Fastbot-iOS required some features are based on or derives from projects below:
 * [WebDriverAgent](https://github.com/facebook/WebDriverAgent) licensed under BSD-3-Clause
