@@ -4,6 +4,11 @@ Fastbot is a model-based testing tool for modeling GUI transitions to discover a
  
 ***More detail see at [Fastbot architecture](https://mp.weixin.qq.com/s/QhzqBFZygkIS6C69__smyQ)
 
+**update 2022.1**
+* update Fastbot Revised License
+* release AnyTrace, the Fastbot test management assistant: supports one-click Fastbot test start, crash analysis, etc. ([AnyTrace User Manual](https://volcengine.bytedance.net/docs/6431/82895))
+
+
 ## Prepare test environment
   * `cd Fastbot-iOS && pod install --repo-update`
   * Open `Fastbot-iOS.xcworkspace`, Set `FastbotRunner` [Signing & Capabilities](./Doc/Fastbot-Xcode-Sign.png) and [Bundle ID](./Doc/Fastbot-Xcode-BundleId.png)
