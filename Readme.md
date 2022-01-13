@@ -6,7 +6,7 @@ Fastbot is a model-based testing tool for modeling GUI transitions to discover a
 
 **update 2022.1**
 * update Fastbot Revised License
-* release AnyTrace, the Fastbot test management assistant: supports one-click Fastbot test start, crash analysis, etc. ([AnyTrace User Manual](https://volcengine.bytedance.net/docs/6431/82895))
+* release AnyTrace, the Fastbot test management assistant: supports one-click Fastbot test start, crash analysis, etc. ([AnyTrace User Manual](https://www.volcengine.com/docs/6431/82895))
 
 
 ## Prepare test environment
