@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   
   s.xcconfig = { 'SYSTEM_FRAMEWORK_SEARCH_PATHS' => '"$(PLATFORM_DIR)/Developer/Library/PrivateFrameworks" "$(PLATFORM_DIR)/Developer/Library/Frameworks"', 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
   
-  s.frameworks = 'XCTest', 'XCTAutomationSupport'
+  s.frameworks = 'XCTest'
   s.libraries = ['xml2.2']
   
 
@@ -54,7 +54,7 @@ Pod::Spec.new do |s|
 
 
   s.subspec 'fastbot-stub' do |ss|
-    ss.vendored_frameworks = ['XCTest', 'XCTAutomationSupport']
+    ss.vendored_frameworks = ['XCTest']
     ss.source_files = "fastbot-stub/*.{h,m,mm}"
   end
 end
